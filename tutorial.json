@@ -6,7 +6,7 @@
   },
   "config": {
     "testRunner": {
-      "command": "react-app-rewired test --watchAll=false",
+      "command": "./node_modules/.bin/jest",
       "args": {
         "tap": "--reporter=jest-tap-reporter"
       }
