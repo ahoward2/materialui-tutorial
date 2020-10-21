@@ -1,7 +1,7 @@
 version: '0.1.0'
 config:
   testRunner:
-    command: ./node_modules/.bin/jest
+    command: ./node_modules/.bin/jest-runner
     args:
       tap: --reporter=jest-tap-reporter
   setup:
