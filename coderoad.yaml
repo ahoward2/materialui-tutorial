@@ -20,3 +20,6 @@ levels:
         setup:
           commands:
             - yarn install
+        solution:
+          commands:
+            - yarn install
