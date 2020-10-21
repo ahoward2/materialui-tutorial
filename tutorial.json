@@ -39,12 +39,15 @@
       "steps": [
         {
           "id": "1.1",
-          "content": "Add the default button from material-ui to your new CustomButton.",
           "setup": {
+            "commands": [
+              "yarn install"
+            ],
             "commits": [
               "21e37d232a586f9e915f11b33cdf39144ef7324c"
             ]
           },
+          "content": "Add the default button from material-ui to your new CustomButton.",
           "solution": {
             "commits": [
               "16d2c9ce2743e1c220cd6b9893a2be502f9e9906"
