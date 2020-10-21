@@ -1,7 +1,7 @@
 version: '0.1.0'
 config:
   testRunner:
-    command: yarn test
+    command: ./node_modules/.bin/jest
     args: 
       tap: --reporter=jest-tap-reporter
   setup:

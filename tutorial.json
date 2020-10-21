@@ -6,7 +6,7 @@
   },
   "config": {
     "testRunner": {
-      "command": "yarn test --",
+      "command": "react-app-rewired test --watchAll=false",
       "args": {
         "tap": "--reporter=jest-tap-reporter"
       }
