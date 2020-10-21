@@ -21,7 +21,7 @@
     },
     "repo": {
       "uri": "https://github.com/ahoward2/materialui-tutorial",
-      "branch": "v0.1.9"
+      "branch": "v0.1.8"
     },
     "dependencies": [
       {
@@ -44,7 +44,7 @@
               "yarn install"
             ],
             "commits": [
-              "c65b183482179d8763c817b1f3689ccf90353616"
+              "c0ecdc20a88f02366f62baca2a4c1b5394c3cb66"
             ]
           },
           "solution": {
@@ -52,7 +52,7 @@
               "yarn install"
             ],
             "commits": [
-              "9af8fbc752fb233aad4957928e7150f4087fe6f3"
+              "41084d25d1209dc7d1c9c552a20ac8627844042e"
             ]
           },
           "content": "Add the default button from material-ui to your new CustomButton."
