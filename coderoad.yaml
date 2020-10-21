@@ -9,7 +9,7 @@ config:
       - yarn install
   repo:
     uri: https://github.com/ahoward2/materialui-tutorial
-    branch: v0.1.9
+    branch: v0.1.8
   dependencies:
     - name: node
       version: '>=10'
