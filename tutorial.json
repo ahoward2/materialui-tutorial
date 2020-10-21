@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "React Components Tutorial",
+    "description": "In this tutorial, you will implement a React component into the UI!\n\n> Import a component from the styled-components library and pass all of the lessons in the test!"
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/jest",
+      "args": {
+        "tap": "--reporter=jest-tap-reporter"
+      }
+    },
+    "setup": {
+      "commands": [
+        "yarn install"
+      ],
+      "commits": [
+        "f4ef14935fffdb0595a607510b914c00fb39844f"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/ahoward2/materialui-tutorial",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Import a material-ui component from `@material-ui/core`",
+      "summary": "Make a new directory in the `src` directory called `common` and then make a n...",
+      "content": "Make a new directory in the `src` directory called `common` and then make a new directory in `common` called `components`.\n\nThe new directory path should look like this:\n\n```\n/src/common/components/CustomButton.jsx\n```",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "Add the default button from material-ui to your new CustomButton.",
+          "setup": {
+            "commits": [
+              "21e37d232a586f9e915f11b33cdf39144ef7324c"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "16d2c9ce2743e1c220cd6b9893a2be502f9e9906"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
