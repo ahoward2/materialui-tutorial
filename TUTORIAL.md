@@ -1,8 +1,8 @@
 # React Components Tutorial
 
-In this tutorial, you will implement a React component into the UI!
-
 > Import a component from the styled-components library and pass all of the lessons in the test!
+
+In this tutorial, you will implement a React component into the UI!
 
 ## 1. Import a material-ui component from `@material-ui/core`
 
