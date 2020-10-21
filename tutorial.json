@@ -40,14 +40,25 @@
         {
           "id": "1.1",
           "setup": {
+            "files": [
+              "./src"
+            ],
             "commands": [
               "yarn install"
+            ],
+            "watchers": [
+              "package.json",
+              "./node_modules",
+              "./src"
             ],
             "commits": [
               "c0ecdc20a88f02366f62baca2a4c1b5394c3cb66"
             ]
           },
           "solution": {
+            "files": [
+              "package.json"
+            ],
             "commands": [
               "yarn install"
             ],
