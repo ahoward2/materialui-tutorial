@@ -6,7 +6,7 @@
   },
   "config": {
     "testRunner": {
-      "command": "./node_modules/.bin/jest-runner",
+      "command": "yarn test --",
       "args": {
         "tap": "--reporter=jest-tap-reporter"
       }

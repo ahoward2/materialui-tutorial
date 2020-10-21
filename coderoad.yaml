@@ -1,9 +1,5 @@
 version: '0.1.0'
 config:
-  testRunner:
-    command: yarn test --
-    args:
-      tap: --reporter=jest-tap-reporter
   setup:
     commands:
       - yarn install
