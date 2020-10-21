@@ -66,7 +66,11 @@
               "41084d25d1209dc7d1c9c552a20ac8627844042e"
             ]
           },
-          "content": "Add the default button from material-ui to your new CustomButton."
+          "content": "Add the default button from material-ui to your new CustomButton.",
+          "hints": [
+            "Check out the material-ui docs.",
+            "Cry."
+          ]
         }
       ]
     }
