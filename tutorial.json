@@ -47,12 +47,15 @@
               "c0ecdc20a88f02366f62baca2a4c1b5394c3cb66"
             ]
           },
-          "content": "Add the default button from material-ui to your new CustomButton.",
           "solution": {
+            "commands": [
+              "yarn install"
+            ],
             "commits": [
               "41084d25d1209dc7d1c9c552a20ac8627844042e"
             ]
-          }
+          },
+          "content": "Add the default button from material-ui to your new CustomButton."
         }
       ]
     }
