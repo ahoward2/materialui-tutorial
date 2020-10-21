@@ -1,0 +1,19 @@
+version: '0.1.0'
+config:
+  testRunner:
+    command: ./node_modules/.bin/jest
+    args:
+      tap: --reporter=jest-tap-reporter
+  setup:
+    commands:
+      - yarn install
+  repo:
+    uri: https://github.com/ahoward2/materialui-tutorial
+    branch: v0.1.0
+  dependencies:
+    - name: node
+      version: '>=10'
+levels:
+  - id: '1'
+    steps:
+      - id: '1.1'
