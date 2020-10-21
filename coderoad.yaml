@@ -18,8 +18,16 @@ levels:
     steps:
       - id: '1.1'
         setup:
+          files:
+            - ./src
           commands:
             - yarn install
+          watchers: 
+            - package.json
+            - ./node_modules
+            - ./src
         solution:
+          files:
+            - package.json
           commands:
             - yarn install
