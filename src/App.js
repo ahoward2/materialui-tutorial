@@ -1,7 +1,8 @@
 import React from "react";
+import CustomButton from '../src/common/components/CustomButton';
 
 const App = () => {
-  return <div>Welcome to CodeRoad</div>;
+  return <CustomButton></CustomButton>;
 };
 
 export default App;
