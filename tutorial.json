@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "summary": {
     "title": "React Components Tutorial",
-    "description": "In this tutorial, you will implement a React component into the UI!\n\n> Import a component from the styled-components library and pass all of the lessons in the test!"
+    "description": "> Import a component from the styled-components library and pass all of the lessons in the test!\n\nIn this tutorial, you will implement a React component into the UI!"
   },
   "config": {
     "testRunner": {
@@ -16,12 +16,12 @@
         "yarn install"
       ],
       "commits": [
-        "b5f674f52950b49b289a88f989a931234a172443"
+        "b9330f72018584c63786dfb24e2e1ef7ce9c8d4f"
       ]
     },
     "repo": {
       "uri": "https://github.com/ahoward2/materialui-tutorial",
-      "branch": "v0.1.8"
+      "branch": "v0.1.10"
     },
     "dependencies": [
       {
@@ -52,7 +52,7 @@
               "./src"
             ],
             "commits": [
-              "c0ecdc20a88f02366f62baca2a4c1b5394c3cb66"
+              "4c2003d08f35484aa031b6ce5c922c43e21f93db"
             ]
           },
           "solution": {
@@ -63,7 +63,7 @@
               "yarn install"
             ],
             "commits": [
-              "41084d25d1209dc7d1c9c552a20ac8627844042e"
+              "9e720332178b4c9bdd41bde94840c9630df17d69"
             ]
           },
           "content": "Add the default button from material-ui to your new CustomButton.",
